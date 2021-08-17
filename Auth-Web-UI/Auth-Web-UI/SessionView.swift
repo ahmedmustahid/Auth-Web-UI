@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct SessionView: View {
+    @EnvironmentObject var auth: AuthService
     var body: some View {
         VStack{
             Spacer()
             Text("You've signed in")
             Spacer()
-            Button("Sign Out",action: {})
+            Button("Sign Out",action: auth.signOut)
         }
     }
 }

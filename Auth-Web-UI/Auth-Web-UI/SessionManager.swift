@@ -41,6 +41,15 @@ class AuthService: ObservableObject {
         }
     }
     
+    func signOut() {
+        _ = Amplify.Auth.signOut {
+            result in switch result{
+            case .success: print("Signed out")
+            case .failure(let error): print(error)
+            }
+        }
+    }
+    
     func observeAuthEvents() {
         _ = Amplify.Hub.listen(to: .auth){
             [weak self] result in switch result.eventName {

@@ -10,7 +10,7 @@ import SwiftUI
 struct SignInView: View {
     @EnvironmentObject var auth: AuthService
     var body: some View {
-        Button("Sign In",action: {})
+        Button("Sign In",action: auth.webSignIn)
             .padding()
             .background(Color.blue)
             .foregroundColor(.white)
