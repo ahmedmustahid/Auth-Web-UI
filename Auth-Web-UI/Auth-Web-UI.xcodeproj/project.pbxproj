@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0BF6AD2E7486C89F41DB13 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 88B1D454B997D3A8F9AA3992 /* amplifyconfiguration.json */; };
+		7D399CCA43FE4BE515C2421D /* Pods_Auth_Web_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED15DF42DB518878EFEF61D /* Pods_Auth_Web_UI.framework */; };
+		9C16FEFB26CB616800ADC046 /* Auth_Web_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C16FEFA26CB616800ADC046 /* Auth_Web_UIApp.swift */; };
+		9C16FEFD26CB616800ADC046 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C16FEFC26CB616800ADC046 /* ContentView.swift */; };
+		9C16FEFF26CB616C00ADC046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C16FEFE26CB616C00ADC046 /* Assets.xcassets */; };
+		9C16FF0226CB616C00ADC046 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C16FF0126CB616C00ADC046 /* Preview Assets.xcassets */; };
+		9C16FF0C26CB616D00ADC046 /* Auth_Web_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C16FF0B26CB616D00ADC046 /* Auth_Web_UITests.swift */; };
+		9C16FF1626CB616D00ADC046 /* Auth_Web_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C16FF1526CB616D00ADC046 /* Auth_Web_UIUITests.swift */; };
+		9CFF784026CB669100CCB33F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF783F26CB669100CCB33F /* SignInView.swift */; };
+		9CFF784226CB683400CCB33F /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF784126CB683400CCB33F /* SessionView.swift */; };
+		9CFF784426CB69B900CCB33F /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF784326CB69B900CCB33F /* SessionManager.swift */; };
+		E98CCF5EFCD43F704860E7BD /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A2DCBCC2F0F4ADB517FABA0 /* awsconfiguration.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C16FF0826CB616D00ADC046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C16FEEF26CB616800ADC046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C16FEF626CB616800ADC046;
+			remoteInfo = "Auth-Web-UI";
+		};
+		9C16FF1226CB616D00ADC046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C16FEEF26CB616800ADC046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C16FEF626CB616800ADC046;
+			remoteInfo = "Auth-Web-UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A2DCBCC2F0F4ADB517FABA0 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		7ED15DF42DB518878EFEF61D /* Pods_Auth_Web_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auth_Web_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B1D454B997D3A8F9AA3992 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		9C16FEF726CB616800ADC046 /* Auth-Web-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auth-Web-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C16FEFA26CB616800ADC046 /* Auth_Web_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth_Web_UIApp.swift; sourceTree = "<group>"; };
+		9C16FEFC26CB616800ADC046 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C16FEFE26CB616C00ADC046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C16FF0126CB616C00ADC046 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C16FF0726CB616D00ADC046 /* Auth-Web-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auth-Web-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C16FF0B26CB616D00ADC046 /* Auth_Web_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth_Web_UITests.swift; sourceTree = "<group>"; };
+		9C16FF1126CB616D00ADC046 /* Auth-Web-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auth-Web-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C16FF1526CB616D00ADC046 /* Auth_Web_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth_Web_UIUITests.swift; sourceTree = "<group>"; };
+		9CFF783E26CB651900CCB33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9CFF783F26CB669100CCB33F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		9CFF784126CB683400CCB33F /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		9CFF784326CB69B900CCB33F /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		9FCEC9B649B2C9308E0FDB65 /* Pods-Auth-Web-UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth-Web-UI.debug.xcconfig"; path = "Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI.debug.xcconfig"; sourceTree = "<group>"; };
+		AB89509E5F75641D1AB76120 /* Pods-Auth-Web-UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth-Web-UI.release.xcconfig"; path = "Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C16FEF426CB616800ADC046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D399CCA43FE4BE515C2421D /* Pods_Auth_Web_UI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C16FF0426CB616D00ADC046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C16FF0E26CB616D00ADC046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		511F6BFC945851A57EA55279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ED15DF42DB518878EFEF61D /* Pods_Auth_Web_UI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C16FEEE26CB616800ADC046 = {
+			isa = PBXGroup;
+			children = (
+				9C16FEF926CB616800ADC046 /* Auth-Web-UI */,
+				9C16FF0A26CB616D00ADC046 /* Auth-Web-UITests */,
+				9C16FF1426CB616D00ADC046 /* Auth-Web-UIUITests */,
+				9C16FEF826CB616800ADC046 /* Products */,
+				C504F13FEEE25DCBEC377FB5 /* AmplifyConfig */,
+				DE4E40F6699180288C28F047 /* Pods */,
+				511F6BFC945851A57EA55279 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C16FEF826CB616800ADC046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C16FEF726CB616800ADC046 /* Auth-Web-UI.app */,
+				9C16FF0726CB616D00ADC046 /* Auth-Web-UITests.xctest */,
+				9C16FF1126CB616D00ADC046 /* Auth-Web-UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C16FEF926CB616800ADC046 /* Auth-Web-UI */ = {
+			isa = PBXGroup;
+			children = (
+				9CFF783E26CB651900CCB33F /* Info.plist */,
+				9C16FEFA26CB616800ADC046 /* Auth_Web_UIApp.swift */,
+				9C16FEFC26CB616800ADC046 /* ContentView.swift */,
+				9C16FEFE26CB616C00ADC046 /* Assets.xcassets */,
+				9C16FF0026CB616C00ADC046 /* Preview Content */,
+				9CFF783F26CB669100CCB33F /* SignInView.swift */,
+				9CFF784126CB683400CCB33F /* SessionView.swift */,
+				9CFF784326CB69B900CCB33F /* SessionManager.swift */,
+			);
+			path = "Auth-Web-UI";
+			sourceTree = "<group>";
+		};
+		9C16FF0026CB616C00ADC046 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C16FF0126CB616C00ADC046 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C16FF0A26CB616D00ADC046 /* Auth-Web-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C16FF0B26CB616D00ADC046 /* Auth_Web_UITests.swift */,
+			);
+			path = "Auth-Web-UITests";
+			sourceTree = "<group>";
+		};
+		9C16FF1426CB616D00ADC046 /* Auth-Web-UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C16FF1526CB616D00ADC046 /* Auth_Web_UIUITests.swift */,
+			);
+			path = "Auth-Web-UIUITests";
+			sourceTree = "<group>";
+		};
+		C504F13FEEE25DCBEC377FB5 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4A2DCBCC2F0F4ADB517FABA0 /* awsconfiguration.json */,
+				88B1D454B997D3A8F9AA3992 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		DE4E40F6699180288C28F047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FCEC9B649B2C9308E0FDB65 /* Pods-Auth-Web-UI.debug.xcconfig */,
+				AB89509E5F75641D1AB76120 /* Pods-Auth-Web-UI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C16FEF626CB616800ADC046 /* Auth-Web-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C16FF1926CB616D00ADC046 /* Build configuration list for PBXNativeTarget "Auth-Web-UI" */;
+			buildPhases = (
+				53A58784761D5E45DCF93B71 /* [CP] Check Pods Manifest.lock */,
+				9C16FEF326CB616800ADC046 /* Sources */,
+				9C16FEF426CB616800ADC046 /* Frameworks */,
+				9C16FEF526CB616800ADC046 /* Resources */,
+				DC32FC19C165953914343714 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Auth-Web-UI";
+			productName = "Auth-Web-UI";
+			productReference = 9C16FEF726CB616800ADC046 /* Auth-Web-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C16FF0626CB616D00ADC046 /* Auth-Web-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C16FF1C26CB616D00ADC046 /* Build configuration list for PBXNativeTarget "Auth-Web-UITests" */;
+			buildPhases = (
+				9C16FF0326CB616D00ADC046 /* Sources */,
+				9C16FF0426CB616D00ADC046 /* Frameworks */,
+				9C16FF0526CB616D00ADC046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C16FF0926CB616D00ADC046 /* PBXTargetDependency */,
+			);
+			name = "Auth-Web-UITests";
+			productName = "Auth-Web-UITests";
+			productReference = 9C16FF0726CB616D00ADC046 /* Auth-Web-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C16FF1026CB616D00ADC046 /* Auth-Web-UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C16FF1F26CB616D00ADC046 /* Build configuration list for PBXNativeTarget "Auth-Web-UIUITests" */;
+			buildPhases = (
+				9C16FF0D26CB616D00ADC046 /* Sources */,
+				9C16FF0E26CB616D00ADC046 /* Frameworks */,
+				9C16FF0F26CB616D00ADC046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C16FF1326CB616D00ADC046 /* PBXTargetDependency */,
+			);
+			name = "Auth-Web-UIUITests";
+			productName = "Auth-Web-UIUITests";
+			productReference = 9C16FF1126CB616D00ADC046 /* Auth-Web-UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C16FEEF26CB616800ADC046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9C16FEF626CB616800ADC046 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9C16FF0626CB616D00ADC046 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9C16FEF626CB616800ADC046;
+					};
+					9C16FF1026CB616D00ADC046 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9C16FEF626CB616800ADC046;
+					};
+				};
+			};
+			buildConfigurationList = 9C16FEF226CB616800ADC046 /* Build configuration list for PBXProject "Auth-Web-UI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C16FEEE26CB616800ADC046;
+			productRefGroup = 9C16FEF826CB616800ADC046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C16FEF626CB616800ADC046 /* Auth-Web-UI */,
+				9C16FF0626CB616D00ADC046 /* Auth-Web-UITests */,
+				9C16FF1026CB616D00ADC046 /* Auth-Web-UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C16FEF526CB616800ADC046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C16FF0226CB616C00ADC046 /* Preview Assets.xcassets in Resources */,
+				9C16FEFF26CB616C00ADC046 /* Assets.xcassets in Resources */,
+				E98CCF5EFCD43F704860E7BD /* awsconfiguration.json in Resources */,
+				6B0BF6AD2E7486C89F41DB13 /* amplifyconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C16FF0526CB616D00ADC046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C16FF0F26CB616D00ADC046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53A58784761D5E45DCF93B71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Auth-Web-UI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC32FC19C165953914343714 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auth-Web-UI/Pods-Auth-Web-UI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C16FEF326CB616800ADC046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFF784026CB669100CCB33F /* SignInView.swift in Sources */,
+				9C16FEFD26CB616800ADC046 /* ContentView.swift in Sources */,
+				9C16FEFB26CB616800ADC046 /* Auth_Web_UIApp.swift in Sources */,
+				9CFF784426CB69B900CCB33F /* SessionManager.swift in Sources */,
+				9CFF784226CB683400CCB33F /* SessionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C16FF0326CB616D00ADC046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C16FF0C26CB616D00ADC046 /* Auth_Web_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C16FF0D26CB616D00ADC046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C16FF1626CB616D00ADC046 /* Auth_Web_UIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C16FF0926CB616D00ADC046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C16FEF626CB616800ADC046 /* Auth-Web-UI */;
+			targetProxy = 9C16FF0826CB616D00ADC046 /* PBXContainerItemProxy */;
+		};
+		9C16FF1326CB616D00ADC046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C16FEF626CB616800ADC046 /* Auth-Web-UI */;
+			targetProxy = 9C16FF1226CB616D00ADC046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C16FF1726CB616D00ADC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C16FF1826CB616D00ADC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C16FF1A26CB616D00ADC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCEC9B649B2C9308E0FDB65 /* Pods-Auth-Web-UI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Auth-Web-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auth-Web-UI/Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "Auth-Web-UI";
+				INFOPLIST_KEY_CFBundleName = "Auth-Web-UI";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.Auth-Web-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C16FF1B26CB616D00ADC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB89509E5F75641D1AB76120 /* Pods-Auth-Web-UI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Auth-Web-UI/Preview Content\"";
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auth-Web-UI/Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "Auth-Web-UI";
+				INFOPLIST_KEY_CFBundleName = "Auth-Web-UI";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.Auth-Web-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C16FF1D26CB616D00ADC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.Auth-Web-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auth-Web-UI.app/Auth-Web-UI";
+			};
+			name = Debug;
+		};
+		9C16FF1E26CB616D00ADC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.Auth-Web-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auth-Web-UI.app/Auth-Web-UI";
+			};
+			name = Release;
+		};
+		9C16FF2026CB616D00ADC046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.Auth-Web-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Auth-Web-UI";
+			};
+			name = Debug;
+		};
+		9C16FF2126CB616D00ADC046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9QQS2RLN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.Auth-Web-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Auth-Web-UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C16FEF226CB616800ADC046 /* Build configuration list for PBXProject "Auth-Web-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C16FF1726CB616D00ADC046 /* Debug */,
+				9C16FF1826CB616D00ADC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C16FF1926CB616D00ADC046 /* Build configuration list for PBXNativeTarget "Auth-Web-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C16FF1A26CB616D00ADC046 /* Debug */,
+				9C16FF1B26CB616D00ADC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C16FF1C26CB616D00ADC046 /* Build configuration list for PBXNativeTarget "Auth-Web-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C16FF1D26CB616D00ADC046 /* Debug */,
+				9C16FF1E26CB616D00ADC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C16FF1F26CB616D00ADC046 /* Build configuration list for PBXNativeTarget "Auth-Web-UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C16FF2026CB616D00ADC046 /* Debug */,
+				9C16FF2126CB616D00ADC046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C16FEEF26CB616800ADC046 /* Project object */;
+}
